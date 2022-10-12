@@ -1,0 +1,21 @@
+{
+  "name": "learncypress1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pretest" : "echo nitesh",
+    "test": "echo realTest",
+    "posttest" : "echo jain",
+    "myTest": "cypress run -s .\\cypress\\e2e\\loginTest.cy.js -b chrome --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.9.0",
+    "cypress-downloadfile": "^1.2.3",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-xpath": "^2.0.1"
+  }
+}
